@@ -5,21 +5,23 @@
    - Open Terminal and run the following commands :-
      - For Node :
        - sudo apt install nodejs
-       - node -v 
+       - Check the installed with : </br> node -v 
        - sudo apt install npm
-       - npm -v      
+       - Check the installed with : </br> npm -v      
      - For AWS CLI :
        - curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
        - unzip awscliv2.zip
        - sudo ./aws/install
-3. Install Serverless framework.
+2. Install Serverless framework.
    - sudo npm install -g serverless
    - serverless --version
-4. Creating a user in AWS Console and download credentials.
+3. Creating a user in AWS Console and download credentials.
    - Aws > IAM > Users > Add User
    - Create user with programmatic access.
    - Download the key
-6. Setup Serverless to use those credentials.
+4. Setup Serverless to use those credentials.
    - Run the following commands in the terminal :
-     - serverless config
-     - 
+     - copy the key credentials (access id and key)
+     - serverless config credentials --provider aws --key copy_past_access_id --secret copy_paste_access_key --profile username_you_created_in_Aws_user
+     - example : serverless config credentials --provider aws --key AKIA4RDW6YOEZRYKPC --secret O+q6okg/mpaEMvO7KkzpGZkS/D9pY5tNFRdDz --profile user123 
+     - see the configured user with :</br> sudo cat ~/.aws/credentials
