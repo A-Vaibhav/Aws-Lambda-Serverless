@@ -3,32 +3,32 @@
 ### Serverless Setup :-
 1. Install Dependencies (Node,AWS CLI).
    - Open Terminal and run the following commands :-
-     -  For Node :
-          ```
-          sudo apt install nodejs
-          ```
-          - Check the installed properly or not :
-          ```
-          node -v
-          ```
-          - Install npm package manager with :
-          ```
-          sudo apt install npm
-          ```
-          - Check the installed properly or not :    
-          ```
-          npm -v
-          ```
-     - For AWS CLI :
-          ```
-          curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
-          ```
-          ```
-          unzip awscliv2.zip
-          ```
-          ```
-          sudo ./aws/install
-          ```
+   - For Node :
+       ```
+       sudo apt install nodejs
+       ```
+       - Check the installed properly or not :
+       ```
+       node -v
+       ```
+       - Install npm package manager with :
+       ```
+       sudo apt install npm
+       ```
+       - Check the installed properly or not :    
+       ```
+       npm -v
+       ```
+    - For AWS CLI :
+       ```
+       curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+       ```
+       ```
+       unzip awscliv2.zip
+       ```
+       ```
+       sudo ./aws/install
+       ```
 2. Install Serverless framework and check version.
    ```
    sudo npm install -g serverless
