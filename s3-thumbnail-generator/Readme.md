@@ -1,4 +1,4 @@
-# Service that (Creates thumbnail when uploaded an Png file in the S3 Bucket) using Serverless
+# Serverless Service that (Creates thumbnail when uploaded an Png file in the S3 Bucket)
 
 ## Prerequisite :
 1. Node and Npm
